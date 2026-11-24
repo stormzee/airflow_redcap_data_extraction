@@ -1,0 +1,9 @@
+{
+  "000000000000/us-east-1::/floci/ui" : {
+    "logGroupName" : "/floci/ui",
+    "createdTime" : 1787588834552,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "tags" : { }
+  }
+}

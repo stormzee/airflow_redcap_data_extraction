@@ -1,0 +1,32 @@
+{
+  "000000000000/us-east-1::/floci/ui::2026/08/24/0a4069ea" : {
+    "logGroupName" : "/floci/ui",
+    "logStreamName" : "2026/08/24/0a4069ea",
+    "createdTime" : 1787588834552,
+    "firstEventTimestamp" : 1787588834854,
+    "lastEventTimestamp" : 1787593042115,
+    "lastIngestionTime" : 1787593042115,
+    "uploadSequenceToken" : "1a86d981-d0b2-482b-855f-5196b7bffa4c",
+    "storedBytes" : 106476
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/23/1888c0f3" : {
+    "logGroupName" : "/floci/ui",
+    "logStreamName" : "2026/09/23/1888c0f3",
+    "createdTime" : 1790175396117,
+    "firstEventTimestamp" : 1790175396120,
+    "lastEventTimestamp" : 1790179199894,
+    "lastIngestionTime" : 1790179199894,
+    "uploadSequenceToken" : "10917957-f61b-4d69-854c-8364550314f4",
+    "storedBytes" : 105459
+  },
+  "000000000000/us-east-1::/floci/ui::2026/09/23/0a4069ea" : {
+    "logGroupName" : "/floci/ui",
+    "logStreamName" : "2026/09/23/0a4069ea",
+    "createdTime" : 1790175320977,
+    "firstEventTimestamp" : 1790175320983,
+    "lastEventTimestamp" : 1790175341099,
+    "lastIngestionTime" : 1790175341099,
+    "uploadSequenceToken" : "38db3074-5df0-4fad-9cd6-6cc1c6867e7c",
+    "storedBytes" : 161570
+  }
+}

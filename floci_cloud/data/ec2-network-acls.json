@@ -1,0 +1,56 @@
+{
+  "000000000000/us-east-1::acl-default" : {
+    "networkAclId" : "acl-default",
+    "vpcId" : "vpc-default",
+    "ownerId" : "000000000000",
+    "region" : "us-east-1",
+    "entries" : [ {
+      "ruleNumber" : 100,
+      "protocol" : "-1",
+      "ruleAction" : "allow",
+      "egress" : false,
+      "cidrBlock" : "0.0.0.0/0",
+      "portRangeFrom" : null,
+      "portRangeTo" : null
+    }, {
+      "ruleNumber" : 32767,
+      "protocol" : "-1",
+      "ruleAction" : "deny",
+      "egress" : false,
+      "cidrBlock" : "0.0.0.0/0",
+      "portRangeFrom" : null,
+      "portRangeTo" : null
+    }, {
+      "ruleNumber" : 100,
+      "protocol" : "-1",
+      "ruleAction" : "allow",
+      "egress" : true,
+      "cidrBlock" : "0.0.0.0/0",
+      "portRangeFrom" : null,
+      "portRangeTo" : null
+    }, {
+      "ruleNumber" : 32767,
+      "protocol" : "-1",
+      "ruleAction" : "deny",
+      "egress" : true,
+      "cidrBlock" : "0.0.0.0/0",
+      "portRangeFrom" : null,
+      "portRangeTo" : null
+    } ],
+    "associations" : [ {
+      "networkAclAssociationId" : "aclassoc-subnet-default-a",
+      "networkAclId" : "acl-default",
+      "subnetId" : "subnet-default-a"
+    }, {
+      "networkAclAssociationId" : "aclassoc-subnet-default-b",
+      "networkAclId" : "acl-default",
+      "subnetId" : "subnet-default-b"
+    }, {
+      "networkAclAssociationId" : "aclassoc-subnet-default-c",
+      "networkAclId" : "acl-default",
+      "subnetId" : "subnet-default-c"
+    } ],
+    "tags" : [ ],
+    "default" : true
+  }
+}
